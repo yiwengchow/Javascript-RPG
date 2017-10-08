@@ -1,0 +1,54 @@
+body{
+	background-color: linen;
+	margin: 0;
+}
+
+ul.nav{
+	margin: 0;
+	padding: 0;
+	list-style-type:none;
+	overflow: hidden;
+	background-color: black;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	display: block;
+	color: #008fb3;
+	font-size: 15px;
+	font-family:"Lucida Console";
+	text-decoration:none;
+	text-align:center;
+	padding: 10px;
+	margin: 10px 5px;
+	border: 2px black;
+	border-radius: 25px;
+	
+  -webkit-transition: background-color .5s ease;
+  -moz-transition: background-color .5s ease;
+  -ms-transition: background-color .5s ease;
+  -o-transition: background-color .5s ease;
+  transition: background-color .5s ease;
+}
+
+li a:hover{
+	background-color: linen;
+}
+
+.toplinks{
+	color: green;
+	font-size: 20px;
+}
+
+.removeLine{
+	text-decoration:none;
+}
+
+.links{
+	color:black;
+	font-size:40px;
+}
+
